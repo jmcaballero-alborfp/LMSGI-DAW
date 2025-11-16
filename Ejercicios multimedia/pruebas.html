@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar fondo sin JS</title>
+    <style>
+        body {
+            background-color: lightblue;
+            transition: background-color 0.5s ease;
+        }
+
+        /* Ocultamos el checkbox */
+        #toggle {
+            display: none;
+        }
+
+        /* Estilo del botón */
+        label {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Cuando el checkbox está marcado, cambia el fondo */
+        #toggle:checked~body {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Checkbox oculto -->
+    <input type="checkbox" id="toggle">
+    <!-- Botón que activa el checkbox -->
+    <label for="toggle">Cambiar fondo</label>
+</body>
+
+</html>
