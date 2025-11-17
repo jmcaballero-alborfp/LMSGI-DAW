@@ -8,3 +8,18 @@ img {
 body {
     background-color: lightblue;
 }
+
+#imagen{
+    display: flex;
+
+}
+
+#cabecera{
+    text-align: center;
+    background-color: rgb(231, 220, 156);
+    border-radius: 20px;
+}
+
+#pie{
+    display: flex;
+}
