@@ -11,14 +11,67 @@
     <meta name="author" content="Juan Profesor">
     <meta name="application-name" content="Plantilla.html">
     <meta name="generator" content="VSCode">
-
+    <style>
+        #verde{
+            color: green;
+        }
+        caption{
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Lorem ipsum dolor amet</h2>
-    <p>Nulla pretium. Sed tempus nunc vitae neque. Suspendisse gravida, metus a scelerisque sollicitudin,
-    lacus velit ultricies nisl, nonummy tempus neque diam quis felis. Etiam sagittis tortor sed arcu sagittis tristique</p>
-    <h3>Aliquam tin</h3>
+    <h2 style="color: rgb(47, 121, 96);">Lorem ipsum dolor amet</h2>
+    <p>Nulla pretium. Sed tempus nunc vitae neque.<span style="color: red; font-weight: bold;"> Suspendisse gravida</span>, metus a scelerisque sollicitudin,
+    lacus velit ultricies nisl, nonummy tempus neque diam quis felis. <span style="color: rgb(243, 195, 37);">Etiam sagittis tortor</span> sed arcu sagittis tristique</p>
+    <h3 style="color: blue;">Aliquam tincidunt, sem eget volutpat porta</h3>
+
+    <p>
+    Vivamus velit dui, placerat vel, feugiat in, ornare et, urna. <u style="color: red;"> Aenean turpis metus,<u style="font-style: italic; color: blue;">aliquam non</u>, tristique in,</u> pretium varius, sapien. 
+    Proin vitae nisi. Suspendisse porttitor purus ac elit. Suspendisse eleifend odio at dui. In in elit sed metus pretium elementum.
+    </p>
     
+    <table border="1" style="width: 450px; height: 150px;">
+        <caption>Titulo de la tabla</caption>
+        <tr style="color: rgb(190, 154, 34); font-weight: bold;">
+            <td></td>
+            <td>Titulo columna 1</td>
+            <td>Titulo columna 2</td>
+        </tr>
+
+        <tr>
+            <td style="color: rgb(190, 154, 34); font-weight: bold;">Titulo fila 1</td>
+            <td id="verde">Donec purus ipsum</td>
+            <td id="verde">Curabitur blandit</td>
+        </tr>
+
+        <tr>
+            <td style="color: red; font-weight: bold;">Titulo fila 2</td>
+            <td id="verde">Donec <strong style="color: rgb(243, 195, 37);"> purus ipsum</strong></td>
+            <td id="verde">Curabitur blandit</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td style="color: red; font-weight: bold;">Titulo columna 1</td>
+            <td style="color: red; font-weight: bold;">Titulo columna 2</td>
+        </tr>
+    </table>
+
+    <p style="color: rgb(108, 163, 86);">
+        Donec purus ipsum, posuere id, venenatis at, placerat ac, lorem. Curabitur blandit, eros sed gravida aliquet, risus
+        justo porta lorem, ut mollis lectus tortor in orci. Pellentesque nec augue.
+        
+        Fusce nec felis eu diam pretium adipiscing.<span style="color: fuchsia;"> Nunc elit elit, vehicula vulputate</span>, venenatis in, posuere id, lorem. Etiam
+        sagittis, tellus in ultrices accumsan, diam nisi feugiat ante, eu congue magna mi non nisl.
+        
+        Vivamus ultrices aliquet augue. <u> <span style="color: green; font-weight: ;">Donec arcu pede, pretium vitae</span></u>, rutrum aliquet, tincidunt blandit, pede. Aliquam in
+        nisi. Suspendisse volutpat. Nulla facilisi. Ut ullamcorper nisi quis mi.
+    </p>
+
+
+
+
 </body>
 </html>
