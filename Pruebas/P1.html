@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica de Tablas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 6px;
+            /* Espacio entre celdas */
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        th,
+        td {
+            border: 4px double #007BFF;
+            /* Borde doble azul */
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        th {
+            background-color: #e6f0ff;
+        }
+
+        .vertical {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            background-color: #d9edf7;
+            font-weight: bold;
+        }
+
+        .horizontal {
+            background-color: #dff0d8;
+            font-weight: bold;
+        }
+
+        .number-row {
+            background-color: #fcf8e3;
+        }
+
+        .word-row {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align:center;">PRÁCTICA DE TABLAS</h2>
+
+    <table>
+        <tr>
+            <td class="vertical" rowspan="4">EJEMPLO</td>
+            <td class="horizontal" colspan="4">Creación de tablas</td>
+        </tr>
+        <tr class="number-row">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="word-row">
+            <td>Uno</td>
+            <td>Dos</td>
+            <td>Tres</td>
+            <td>Cuatro</td>
+        </tr>
+        <tr class="word-row">
+            <td colspan="4">cinco</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
